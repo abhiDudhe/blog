@@ -1,29 +1,34 @@
-
-.h1{
+.h1 {
     font-size: 5vh;
-   color: rgba(0, 0, 0, 0.726);
+    color: rgba(0, 0, 0, 0.726);
 }
-.author{ 
+
+.author {
     padding-left: 12%;
-    font-size:20px;
+    font-size: 20px;
     color: rgba(0, 0, 0, 0.603);
 }
-.img-fluid{
+
+.img-fluid {
     padding-left: 40px;
 }
-.social{
-    margin-left:6%;
+
+.social {
+    margin-left: 6%;
     margin-top: 30px;
 }
-.social .col-xl-2{
-    padding:5px;
+
+.social .col-xl-2 {
+    padding: 5px;
 }
-.social .col-xl-2:hover{
+
+.social .col-xl-2:hover {
     opacity: .6;
     cursor: pointer;
-    
+
 }
-.text2{
+
+.text2 {
     font-weight: bold;
-    font-size:3vh;
+    font-size: 3vh;
 }

@@ -1,5 +1,5 @@
-<header >
-<section id="top" class="bg-primary">
+<header>
+  <section id="top" class="bg-primary">
     <div class="top container">
       <div class="row py-1">
         <div class="col-12 col-lg-6">
@@ -11,45 +11,89 @@
       </div>
     </div>
   </section>
-<!-- end top -->
-  <!-- Navbar Start -->
+  <!-- end top -->
+
   <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="/">
-      <img src="./assets/logo.ico" alt="pencil-boy img" width="30px">
-      </a>
+      <a class="navbar-brand" href="#"><img src="./assets/logo.ico" alt="pencil-boy img" width="30px"></a>
       <!--   Logo -->
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="mynavbar">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto">
-          <li class="nav-item">
-            <a class="nav-link px-3 active" routerLink="home">Home</a>
+          <li class="nav-item active">
+            <a class="nav-link" routerLink="" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link px-3"  routerLink="blog1">Blog</a>
+            <a class="nav-link" routerLink="blog1" data-bs-toggle="collapse"
+              data-bs-target=".navbar-collapse.show">Blog</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link px-3" routerLink="blog2">Blog2</a>
+            <a class="nav-link" routerLink="blog2" data-bs-toggle="collapse"
+              data-bs-target=".navbar-collapse.show">Blog2</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link px-3" routerLink="blog3">Blog3</a>
+            <a class="nav-link" routerLink="blog3" data-bs-toggle="collapse"
+              data-bs-target=".navbar-collapse.show">Blog3</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link px-3" routerLink="blog4">Blog4</a>
+            <a class="nav-link" routerLink="blog4" data-bs-toggle="collapse"
+              data-bs-target=".navbar-collapse.show">Blog4</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link px-3" routerLink="blog5">Blog5</a>
+            <a class="nav-link" routerLink="blog5" data-bs-toggle="collapse"
+              data-bs-target=".navbar-collapse.show">Blog5</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link px-3" routerLink="contact">Contact US</a>
+            <a class="nav-link" routerLink="contact" data-bs-toggle="collapse"
+              data-bs-target=".navbar-collapse.show">Contact-US</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-<!-- nav bar end   -->
-<router-outlet></router-outlet>
-  </header>
+  <!-- nav bar end   -->
+  <router-outlet></router-outlet>
+</header>
 
+<!-- end top -->
+<!-- Navbar Start -->
+<!-- <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+      <img src="./assets/logo.ico" alt="pencil-boy img" width="30px">
+      </a>  -->
+
+<!--   Logo -->
+<!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link px-3 active" routerLink="" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-3"  routerLink="blog1" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-3" routerLink="blog2" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Blog2</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-3" routerLink="blog3" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Blog3</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-3" routerLink="blog4" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Blog4</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-3" routerLink="blog5" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Blog5</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-3" routerLink="contact" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Contact US</a>
+          </li>
+        </ul>
+      </div>
+    </div> 
+  </nav>-->
